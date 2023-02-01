@@ -3,10 +3,10 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import './index.css';
 import { Route } from "react-router-dom";
 
-import Seccion1 from "./components/Seccion1";
-import Seccion2 from "./components/Seccion2";
-import Seccion3 from "./components/Seccion3";
-import Seccion4 from "./components/Seccion4";
+import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
+import Section4 from "./components/Section4";
 const anchors = ["AboutMe", "ProfesionalSkills", "Projects", "ContactMe"];
 
 const App = () => (
@@ -26,10 +26,10 @@ const App = () => (
       return (
         <div className="App"> 
           
-          <div className="section"><Seccion1/></div>
-          <div className="section"><Seccion2/></div>
-          <div className="section"><Seccion3/></div>
-          <div className="section"><Seccion4/></div>
+          <div className="section"><Section1/></div>
+          <div className="section"><Section2/></div>
+          <div className="section"><Section3/></div>
+          <div className="section"><Section4/></div>
         </div>
       );
     }}
