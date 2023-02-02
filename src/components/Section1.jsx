@@ -26,7 +26,7 @@ export default function Section1() {
         </SideBar>
         
             <NameText left={"38%"}>Adrian</NameText>
-            <NameText color={"#1C7EFF"} left={"60%"}>Laborde</NameText>
+            <NameText color={"#1C7EFF"} left={"65%"}>Laborde</NameText>
             <FullStackText>FullStack Developer</FullStackText>
             <AboutDescription>Desde muy pequeño me sentí atraído hacia las computadoras y la tecnología en general, a los 10 años aproximadamente realicé mi primer curso de diseño web, el cual aprendi solo HTML. Con el paso de los años mis intereses variaron, estudie Psicología y también Fotografía pero sin perder el interés por las computadoras, y recientemente ví mi oportunidad de iniciarme en el mundo IT al conocer el bootcamp de Soy Henry, en el cual aprendí mucho y fue la experiencia que me motivo a cambiar mi estilo de vida. Actualmente acabo de graduarme en Soy Henry y estoy buscando una empresa que pueda aprovechar tanto mis habilidades tech como mis habilidades blandas obtenidas mediante mis carreras anteriores.</AboutDescription>
             <CallToActionText>SI DESEAS PONERTE EN CONTACTO CONMIGO, ESCRIBEME A:</CallToActionText>

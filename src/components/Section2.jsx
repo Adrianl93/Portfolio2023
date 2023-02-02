@@ -159,7 +159,7 @@ left: ${props => props.left || "30%"};
 font-family: 'DotGothic16';
 font-style: normal;
 font-weight: 400;
-font-size:${props => props.fontSize || "60px"};
+font-size:${props => props.fontSize || "55px"};
 line-height: 0%;
 /* or 0px */
 

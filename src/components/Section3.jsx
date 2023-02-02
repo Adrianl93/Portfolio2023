@@ -9,9 +9,9 @@ import bookExplorer from "../media/bookexplorer.png";
 import htmlIcon from "../media/htmlIcon.png";
 import cssIcon from "../media/cssIcon.png";
 import javascriptIcon from "../media/javascriptIcon.png";
-import postgreIcon from "../media/postgreIcon.png";
-import bootstrapIcon from "../media/bootstrapIcon.png";
-import reactIcon from "../media/reactIcon.png";
+import postgreIcon from "../media/PostgreIcon3.png";
+import bootstrapIcon from "../media/bootstrapIcon2.png";
+import reactIcon from "../media/reactIcon2.png";
 import reduxIcon from "../media/reduxIcon.png";
 import github from "../media/github.svg"
 
@@ -25,6 +25,7 @@ export default function Section3() {
             <ProjectContainer>
                 <ProjectImg src={pokemonProject}></ProjectImg>
                 <TitleProjectsText fontSize={"27x"} top={"42%"} color={"#31A8FF"}>Pokémon Project</TitleProjectsText>
+                <GitHubIconImg src={github} left={"88%"}/>
                 <ProjectDescription>App web desarrollada como proyecto individual de SoyHenry.</ProjectDescription>
                 <TechContainer>
                     <TechsIcon src={htmlIcon}/>
@@ -40,6 +41,7 @@ export default function Section3() {
             <ProjectContainer>
                 <ProjectImg src={bookExplorer}></ProjectImg>
                 <TitleProjectsText fontSize={"27x"} top={"42%"} color={"#31A8FF"}>Book Explorer</TitleProjectsText>
+                <GitHubIconImg src={github}/>
                 <ProjectDescription>App web desarrollada en grupo como proyecto final de SoyHenry.</ProjectDescription>
                 <TechContainer >
                     <TechsIcon src={htmlIcon}/>
@@ -180,5 +182,14 @@ height: ${props => props.height || "80%"};
 width: ${props => props.width || "12%"};
 margin-top:${props => props.marginTop || "0px"};
 padding-top:${props => props.paddingTop || "0px"};
+
+`
+
+export const GitHubIconImg=styled.img`
+position:absolute;
+height: ${props => props.height || "9%"};
+width: ${props => props.width || "5%"};
+top:${props => props.top || "51.5%"};
+left:${props => props.left || "38%"};
 
 `
