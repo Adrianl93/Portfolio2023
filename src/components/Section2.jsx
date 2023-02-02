@@ -131,7 +131,7 @@ height: ${props => props.height || "100%"};
 width: ${props => props.width || "50%"};
 margin-top:${props => props.marginTop || "0px"};
 padding-top:${props => props.paddingTop || "0px"};
-border:1px solid green;
+
 `
 
 
