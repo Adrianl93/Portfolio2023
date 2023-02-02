@@ -14,7 +14,7 @@ export default function Section4() {
         <EducationMainContainer>
             <LeftEducationContainer>
                 <TitleEducationText fontSize={"40px"} left={"3%"} top={"15%"}>Soy Henry bootcamp</TitleEducationText>
-                    <EducationDescription top={"27%"}>Bootcamp, Fullstack developer (js, react, redux, postgre, Nodejs). 2023</EducationDescription>
+                    <EducationDescription top={"27%"}>Fullstack developer (js, react, redux, postgre, Nodejs). 2023</EducationDescription>
                     <EducationDescription top={"32%"} color={"#EBECF0"}>700hs de cursado teórico práctico</EducationDescription>
                 <TitleEducationText fontSize={"40px"} left={"3%"} top={"40%"}>Facultad de Psicología</TitleEducationText>
                     <EducationDescription top={"52%"}>Licenciatura en Psicología. 2023 </EducationDescription>
