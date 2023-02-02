@@ -59,7 +59,7 @@ height: 30vh;
 border-radius: 100%;
 box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 top: 3vw;
-left: 8.5vh;
+left: 7.5vh;
 &:hover{
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.35);
     top: 2.8vw;
