@@ -24,7 +24,7 @@ export default function Section3() {
         <Rectangle>
             <ProjectContainer>
                 <ProjectImg src={pokemonProject}></ProjectImg>
-                <TitleProjectsText fontSize={"27x"} top={"42%"} color={"#31A8FF"}>Pokémon Project</TitleProjectsText>
+                <TitleProjectsText fontSize={"25x"} top={"42%"} color={"#31A8FF"}>Pokémon Project</TitleProjectsText>
                 <GitHubIconImg src={github} right={"56%"}/>
                 <ProjectDescription>App web desarrollada como proyecto individual de SoyHenry.</ProjectDescription>
                 <TechContainer>
@@ -40,7 +40,7 @@ export default function Section3() {
 
             <ProjectContainer>
                 <ProjectImg src={bookExplorer}></ProjectImg>
-                <TitleProjectsText fontSize={"27x"} top={"42%"} color={"#31A8FF"}>Book Explorer</TitleProjectsText>
+                <TitleProjectsText fontSize={"25x"} top={"42%"} color={"#31A8FF"}>Book Explorer</TitleProjectsText>
                 <GitHubIconImg src={github}/>
                 <ProjectDescription>App web desarrollada en grupo como proyecto final de SoyHenry.</ProjectDescription>
                 <TechContainer >
@@ -187,9 +187,9 @@ padding-top:${props => props.paddingTop || "0px"};
 
 export const GitHubIconImg=styled.img`
 position:absolute;
-height: ${props => props.height || "9%"};
+height: ${props => props.height || "7%"};
 width: ${props => props.width || "5%"};
-top:${props => props.top || "51.5%"};
+top:${props => props.top || "52.5%"};
 right:${props => props.right || "6%"};
 
 `
