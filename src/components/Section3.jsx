@@ -25,7 +25,7 @@ export default function Section3() {
             <ProjectContainer>
                 <ProjectImg src={pokemonProject}></ProjectImg>
                 <TitleProjectsText fontSize={"27x"} top={"42%"} color={"#31A8FF"}>Pokémon Project</TitleProjectsText>
-                <GitHubIconImg src={github} left={"88%"}/>
+                <GitHubIconImg src={github} right={"56%"}/>
                 <ProjectDescription>App web desarrollada como proyecto individual de SoyHenry.</ProjectDescription>
                 <TechContainer>
                     <TechsIcon src={htmlIcon}/>
@@ -152,8 +152,8 @@ line-height: 29px;
 display: flex;
 align-items: center;
 text-align: justify;
-letter-spacing: 0.03em;
-font-size:${props => props.fontSize || "20px"};
+letter-spacing: 0.01em;
+font-size:${props => props.fontSize || "18px"};
 margin-left:5%;
 color: ${props => props.color || "#DB6260"};
 
@@ -190,6 +190,6 @@ position:absolute;
 height: ${props => props.height || "9%"};
 width: ${props => props.width || "5%"};
 top:${props => props.top || "51.5%"};
-left:${props => props.left || "38%"};
+right:${props => props.right || "6%"};
 
 `

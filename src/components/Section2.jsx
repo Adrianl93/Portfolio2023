@@ -26,7 +26,7 @@ export default function Section2() {
     <SkillsMain>
 
         <LeftSideSkills>
-            <TitleText left={"4%"}>Habilidades Técnicas</TitleText>
+            <TitleText left={"3%"}>Habilidades Técnicas</TitleText>
             <TitleText left={"4%"} top={"13%"} fontSize={"40px"}  color={"#7B98BD"}>Lenguajes de Programación</TitleText>
             <SkillsContainer top={"32%"}>
                 <SkillsIcon src={htmlIcon} height={"100%"} width={"15%"} />
