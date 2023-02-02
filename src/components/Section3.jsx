@@ -42,7 +42,7 @@ export default function Section3() {
                 <ProjectImg src={bookExplorer}></ProjectImg>
                 <TitleProjectsText fontSize={"25x"} top={"42%"} color={"#31A8FF"}>Book Explorer</TitleProjectsText>
                 <GitHubIconImg src={github}/>
-                <ProjectDescription>App web desarrollada en grupo como proyecto final de SoyHenry.</ProjectDescription>
+                <ProjectDescription left={"52%"}>App web desarrollada en grupo como proyecto final de SoyHenry.</ProjectDescription>
                 <TechContainer >
                     <TechsIcon src={htmlIcon}/>
                     <TechsIcon src={cssIcon}/>
@@ -138,10 +138,10 @@ border-radius: 30px;
 `
 
 export const ProjectDescription=styled.p`
-position: relative;
-top: ${props => props.top || "9%"};
-/* left: ${props => props.left || "38%"}; */
-width: 90%;
+position: absolute;
+top: ${props => props.top || "58%"};
+left: ${props => props.left || "2%"};
+width: 30%;
 font-family: 'Englebert';
 font-style: normal;
 font-weight: 400;
@@ -187,9 +187,19 @@ padding-top:${props => props.paddingTop || "0px"};
 
 export const GitHubIconImg=styled.img`
 position:absolute;
-height: ${props => props.height || "7%"};
-width: ${props => props.width || "5%"};
-top:${props => props.top || "52.5%"};
+height: ${props => props.height || "4.3vh"};
+width: ${props => props.width || "2vw"};
+top:${props => props.top || "53.5%"};
 right:${props => props.right || "6%"};
+border-radius: 100%;
+align-items: center;
+justify-content: center;
+padding: 0px;
+margin:0px;
+
+&:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 `
