@@ -141,7 +141,7 @@ export const ProjectDescription=styled.p`
 position: absolute;
 top: ${props => props.top || "58%"};
 left: ${props => props.left || "2%"};
-width: 30%;
+width: 35%;
 font-family: 'Englebert';
 font-style: normal;
 font-weight: 400;
