@@ -27,8 +27,8 @@ export default function Section4() {
             <RightEducationContainer>
                 <TitleEducationText fontSize={"40px"} left={"53%"} top={"15%"} color={"#DB6260"}>Educacion adicional</TitleEducationText>
                 <EducationDescription left={"50%"} top={"35%"}>Fundación Telefónica . Introducción al diseño de videojuegos. 2023.</EducationDescription>
-                <EducationDescription left={"50%"} top={"50%"}>UBA IALAB. Introducción / Formación en Datos e Inteligencia Artificial. 2023.</EducationDescription>
-                <EducationDescription left={"50%"} top={"65%"}>Ing. A. Mercau. Bachillerato con formación técnica(electromecánica). 2010.</EducationDescription>
+                <EducationDescription left={"50%"} top={"53%"}>UBA IALAB. Introducción / Formación en Datos e Inteligencia Artificial. 2023.</EducationDescription>
+                <EducationDescription left={"50%"} top={"68%"}>Ing. A. Mercau. Bachillerato con formación técnica(electromecánica). 2010.</EducationDescription>
             </RightEducationContainer>
 
 
