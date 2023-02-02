@@ -189,7 +189,7 @@ export const GitHubIconImg=styled.img`
 position:absolute;
 height: ${props => props.height || "4.3vh"};
 width: ${props => props.width || "2vw"};
-top:${props => props.top || "53.5%"};
+top:${props => props.top || "55.5%"};
 right:${props => props.right || "6%"};
 border-radius: 100%;
 align-items: center;
