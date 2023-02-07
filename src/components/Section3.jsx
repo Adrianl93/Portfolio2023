@@ -23,9 +23,9 @@ export default function Section3() {
         <TitleProjectsText>Proyectos</TitleProjectsText>
         <Rectangle>
             <ProjectContainer>
-                <ProjectImg src={pokemonProject}></ProjectImg>
+                <a href="https://pokemon-pi-client.vercel.app/" target="_blank"><ProjectImg src={pokemonProject}></ProjectImg></a>
                 <TitleProjectsText fontSize={"25x"} top={"42%"} color={"#31A8FF"}>Pokémon Project</TitleProjectsText>
-                <GitHubIconImg src={github} right={"56%"}/>
+                <a href="https://github.com/Adrianl93/Pokemon_PI" target="_blank"><GitHubIconImg src={github} right={"56%"}/></a>
                 <ProjectDescription>App web desarrollada como proyecto individual de SoyHenry.</ProjectDescription>
                 <TechContainer>
                     <TechsIcon src={htmlIcon}/>
@@ -39,9 +39,9 @@ export default function Section3() {
             </ProjectContainer>
 
             <ProjectContainer>
-                <ProjectImg src={bookExplorer}></ProjectImg>
+                <a href="https://pf-henry-book-store-client.vercel.app/" target="_blank"><ProjectImg src={bookExplorer}></ProjectImg></a>
                 <TitleProjectsText fontSize={"25x"} top={"42%"} color={"#31A8FF"}>Book Explorer</TitleProjectsText>
-                <GitHubIconImg src={github}/>
+                <a href="https://github.com/Adrianl93/PF-HenryBookStore-Client" target="_blank"><GitHubIconImg src={github}/></a>
                 <ProjectDescription left={"52%"}>App web desarrollada en grupo como proyecto final de SoyHenry.</ProjectDescription>
                 <TechContainer >
                     <TechsIcon src={htmlIcon}/>

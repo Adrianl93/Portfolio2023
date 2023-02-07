@@ -18,9 +18,9 @@ export default function Section1() {
         <SideBar>
             <ProfilePic src={profileImg}/>
             <IconsContainer>
-                <IconsAboutImg src={whatsapp}/>
-                <IconsAboutImg src={linkedin}/>
-                <IconsAboutImg src={github}/>
+                <a href="https://wa.me/+5493512356489" target="blank"><IconsAboutImg src={whatsapp}/></a>
+                <a href="https://www.linkedin.com/in/adrian-laborde-732091199/" target="blank"><IconsAboutImg src={linkedin}/></a>
+                <a href="https://github.com/Adrianl93" target="blank"><IconsAboutImg src={github}/></a>
             </IconsContainer>
             <CvButton>Descargar Cv<IconCvImg src={download}/></CvButton>
         </SideBar>
@@ -31,6 +31,7 @@ export default function Section1() {
             <AboutDescription>Desde muy pequeño me sentí atraído hacia las computadoras y la tecnología en general, a los 10 años aproximadamente realicé mi primer curso de diseño web, el cual aprendi solo HTML. Con el paso de los años mis intereses variaron, estudie Psicología y también Fotografía pero sin perder el interés por las computadoras, y recientemente ví mi oportunidad de iniciarme en el mundo IT al conocer el bootcamp de Soy Henry, en el cual aprendí mucho y fue la experiencia que me motivo a cambiar mi estilo de vida. Actualmente acabo de graduarme en Soy Henry y estoy buscando una empresa que pueda aprovechar tanto mis habilidades tech como mis habilidades blandas obtenidas mediante mis carreras anteriores.</AboutDescription>
             <CallToActionText>SI DESEAS PONERTE EN CONTACTO CONMIGO, ESCRIBEME A:</CallToActionText>
             <MailText>laborde.adrian2012@gmail.com</MailText>
+            <MailText top={"92%"}>+5493512356489</MailText>
     </AboutMainContainer>
     
     );
