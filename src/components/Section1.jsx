@@ -46,7 +46,7 @@ export default function Section1() {
                 <a href="https://www.linkedin.com/in/adrian-laborde-732091199/" target="blank"><IconsAboutImg src={linkedin}/></a>
                 <a href="https://github.com/Adrianl93" target="blank"><IconsAboutImg src={github}/></a>
             </IconsContainer>
-            <AcvDownload href="https://www.dropbox.com/s/n6v8tgx73v2lbri/CV%20-%20Adrian%20Laborde-%20Full%20Stack%20developer%2C%20espa%C3%B1ol.pdf?dl=1">
+            <AcvDownload href="https://www.dropbox.com/s/5hbphwaus9ikw2p/CV%20-%20Adrian%20Laborde-%20Full%20Stack%20developer%2C%20espa%C3%B1ol.pdf?dl=1">
                 <CvButton>Descargar Cv<IconCvImg src={download}/></CvButton>
                 </AcvDownload>
         </SideBar>
